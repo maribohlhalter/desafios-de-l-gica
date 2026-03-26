@@ -1,6 +1,5 @@
-let totalGeral = 0;
-document.getElementById('lista-produtos').innerHTML = '';
-document.getElementById('valor-total').textContent = 'R$0,00';
+let totalGeral;
+limpar();
 
 
 function adicionar() {
